@@ -1,0 +1,181 @@
+.my-divs{
+    width: 485px;
+max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+background-color: white;
+height: 1055px;
+}
+
+.box-one{
+    width: 480px;
+    height: 75px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    line-height: 65px;
+    }
+    
+    .box-two{
+        width: 480px;
+        height: 150px;
+        margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    line-height: 150px;
+        }
+    
+    .box-three{
+        width: 480px;
+    height: 125px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    line-height: 120px;
+    
+    }
+    
+    .box-four{
+        width: 480px;
+        height: 125px;
+        margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    line-height: 120px;
+        }
+
+     
+        .box-five{
+            width: 240px;
+            height: 250px;
+            
+            float: left;
+            clear: right;
+        
+            margin-left: 1%;
+            text-align: center;
+            line-height: 250px;
+            }
+    
+            .box-six{
+                width: 240px;
+            height: 250px;
+            display: block;
+            float: left;
+            text-align: center;  
+            line-height: 250px;
+            }
+
+            .box-seven{
+                width: 240px;
+                height: 250px;
+                float: left;
+                clear: right;
+                margin-left: 1%;
+                text-align: center;
+                line-height: 250px;
+                } 
+
+                .box-eight{
+                    width: 240px;
+                height: 250px;
+                display: block;
+                float: left;
+                text-align: center;  
+                line-height: 250px;
+                }
+        .box-nine{
+            width: 480px;
+            height: 80px;
+            float: left;
+            text-align: center;
+            line-height: 90px;
+            }
+     
+
+     
+                
+            @media  screen and (min-width:768px)  {
+                .my-divs{
+                    width: 960px;
+                max-width: 1100px;
+                    margin-left: auto;
+                    margin-right: auto;
+                background-color: white;
+                height: 1055px;
+                }
+                
+            .box-one{
+            width: 960px;
+            height: 100px;
+            /* margin-right: auto;
+            margin-left: auto; */
+            text-align: center;
+            line-height: 90px;
+            }
+            
+             .box-two{
+                width: 200px;
+                height: 600px;
+               float: left;
+               clear: right;
+               margin-left: 0%;
+               text-align: center;
+               line-height: 600px;
+                }
+            
+            .box-three{
+            width: 380px;
+            height: 200px;
+            float: left;
+            text-align: center;
+            line-height: 200px;
+            }
+            
+             .box-four{
+                width: 380px;
+                height: 200px;
+                float: left;
+                text-align: center;
+                line-height: 200px;
+                }
+            
+                .box-five{
+                    width: 190px;
+                    height: 250px;
+                    float: left;
+                    margin-left: 0px;
+                    text-align: center;
+                    line-height: 250px;
+                    }
+                    .box-six{
+                        width: 190px;
+                        height: 250px;
+                        float: left;
+                        text-align: center;
+                        line-height: 250px;
+                        }
+                    
+                        .box-seven{
+                            width: 190px;
+                            height: 250px;
+                            float: left;
+                            margin-left: 0px;
+                            text-align: center;
+                            line-height: 250px;
+                            }
+                            .box-eight{
+                                width: 190px;
+                                height: 250px;
+                                float: left;
+                                text-align: center;
+                                line-height: 250px;
+                                }
+                .box-nine{
+                    width: 760px;
+                    height: 150px;
+                    float: left;
+                    text-align: center;
+                    line-height: 140px;
+                    }
+                }
