@@ -1,0 +1,77 @@
+
+.color-one{
+    background-color: rgb(177, 255, 216);
+}
+
+.color-two{
+    background-color: rgb(115, 185, 150);
+}
+
+    
+.color-three{
+    background-color: rgb(56, 199, 127);
+}
+ 
+.color-four{
+    background-color: rgb(43, 146, 95);
+}
+
+.color-five{
+    background-color: rgb(62, 255, 159);
+}
+
+.color-six{
+    background-color: rgb(81, 182, 131);
+}
+
+.color-seven{
+    background-color: rgb(224, 255, 239);
+}
+
+.color-eight{
+    background-color: rgb(102, 148, 125);
+}
+
+.color-nine{background-color: rgb(72, 212, 142);
+} 
+
+
+@media  screen and (min-width:768px)  {
+
+    .color-one{
+        background-color: rgb(204, 0, 255);
+    }
+
+    .color-two{
+        background-color: rgb(148, 8, 184);
+    }
+    
+        
+    .color-three{
+        background-color: rgb(77, 19, 92);
+    }
+     
+   .color-four{
+        background-color: rgb(146, 84, 161);
+    }
+    
+    .color-five{
+        background-color: rgb(209, 125, 230);
+    }
+    
+    .color-six{
+        background-color: rgb(164, 98, 180);
+    }
+    
+    .color-seven{
+        background-color: rgb(141, 77, 156);
+    }
+    
+    .color-eight{
+        background-color: rgb(88, 40, 100);
+    }
+    
+    .color-nine{background-color: rgb(229, 160, 247);
+    }
+
+}
