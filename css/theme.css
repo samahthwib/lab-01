@@ -36,7 +36,47 @@
 } 
 
 
-@media  screen and (min-width:768px)  {
+/* Tablet View */
+@media screen and (min-width: 768px) {
+    .color-one{
+      background-color: #700b0b;
+    }
+  
+    .color-two{
+      background-color: #bb4c4c;
+    }
+  
+    .color-three {
+      background-color: #b36666;
+    }
+    
+    .color-four{
+      background-color: #d84141;
+    }
+  
+    .color-five {
+      background-color: #612525;
+    }
+    
+    .color-six{
+      background-color: #ad0909;
+    }
+    
+    .color-seven{
+      background-color: #700b0b;
+    }
+    
+    .color-eight {
+      background-color: #7c2f2f;
+    }
+  
+    .color-nine {
+      background-color: #a54242;
+    }
+  }
+
+  /* Desktop View */
+  @media only screen and (min-width: 960px)   {
 
     .color-one{
         background-color: rgb(204, 0, 255);
@@ -74,4 +114,4 @@
     .color-nine{background-color: rgb(229, 160, 247);
     }
 
-}
+} 

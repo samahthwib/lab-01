@@ -1,181 +1,138 @@
-.my-divs{
-    width: 485px;
-max-width: 1100px;
-    margin-left: auto;
-    margin-right: auto;
-background-color: white;
-height: 1055px;
+   /* Mobile View */
+
+body {
+    display: flex;
+    flex-wrap:  wrap;
+ 
+  }
+  
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.align-box{
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.box-one{
+ .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .box-one, .box-two, .box-three, .box-four, .box-four {
     width: 480px;
-    height: 75px;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    line-height: 65px;
-    }
-    
-    .box-two{
-        width: 480px;
-        height: 150px;
-        margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    line-height: 150px;
-        }
-    
-    .box-three{
-        width: 480px;
-    height: 125px;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    line-height: 120px;
-    
-    }
-    
-    .box-four{
-        width: 480px;
-        height: 125px;
-        margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    line-height: 120px;
-        }
+  }
+  .box-five, .box-six, .box-seven, .box-eight {
+    width: 240px;
+    line-height: 250px;
+    height: 250px;
+  }
 
-     
-        .box-five{
-            width: 240px;
-            height: 250px;
-            
-            float: left;
-            clear: right;
+    .box-one{
+        height: 75px;
+        line-height: 400%;
+        }
         
-            margin-left: 1%;
-            text-align: center;
-            line-height: 250px;
+        .box-two{
+         height: 150px;
+         line-height: 1000%;
+            }
+        
+        .box-three{
+        height: 125px;
+        line-height: 1000%;
+        }
+        
+        .box-four{
+        height: 125px;
+        line-height: 1000%;
             }
     
-            .box-six{
-                width: 240px;
-            height: 250px;
-            display: block;
-            float: left;
-            text-align: center;  
-            line-height: 250px;
-            }
-
-            .box-seven{
-                width: 240px;
-                height: 250px;
-                float: left;
-                clear: right;
-                margin-left: 1%;
+            .box-nine{
+                width: 480px;
+                height: 80px;
                 text-align: center;
-                line-height: 250px;
-                } 
+                line-height: 90px;
+                }
 
-                .box-eight{
-                    width: 240px;
-                height: 250px;
-                display: block;
-                float: left;
-                text-align: center;  
-                line-height: 250px;
-                }
-        .box-nine{
-            width: 480px;
-            height: 80px;
-            float: left;
-            text-align: center;
-            line-height: 90px;
-            }
-     
+/* Desktop View */
+@media screen and (min-width: 960px) {
 
+    body {
+        max-height: 400px;
+      }
+    
+      section.a {
+        display: inline-flex;
+    }
+
+
+      .container {
+        max-width: 760px;
+        max-height: 600px;
+      }
+
+      section.b {
+        display: flex;
+        align-items: center;
      
-                
-            @media  screen and (min-width:768px)  {
-                .my-divs{
-                    width: 960px;
-                max-width: 1100px;
-                    margin-left: auto;
-                    margin-right: auto;
-                background-color: white;
-                height: 1055px;
-                }
-                
-            .box-one{
-            width: 960px;
-            height: 100px;
-            /* margin-right: auto;
-            margin-left: auto; */
-            text-align: center;
-            line-height: 90px;
+    }
+
+      .box-one{
+        width: 960px;
+        height: 100px;
+ 
+        }
+        
+         .box-two{
+            width: 200px;
+            height: 600px;
+           margin-left: 0%;
+           line-height: 600px;
             }
-            
-             .box-two{
-                width: 200px;
-                height: 600px;
-               float: left;
-               clear: right;
-               margin-left: 0%;
-               text-align: center;
-               line-height: 600px;
-                }
-            
-            .box-three{
+        
+        .box-three{
+        width: 380px;
+        height: 200px;
+        line-height: 200px;
+        }
+        
+         .box-four{
             width: 380px;
             height: 200px;
-            float: left;
             text-align: center;
             line-height: 200px;
             }
-            
-             .box-four{
-                width: 380px;
-                height: 200px;
-                float: left;
+        
+            .box-five{
+                width: 190px;
+                height: 250px;
                 text-align: center;
-                line-height: 200px;
+                line-height: 250px;
                 }
-            
-                .box-five{
+                .box-six{
                     width: 190px;
                     height: 250px;
-                    float: left;
-                    margin-left: 0px;
-                    text-align: center;
                     line-height: 250px;
                     }
-                    .box-six{
+                
+                    .box-seven{
                         width: 190px;
                         height: 250px;
-                        float: left;
-                        text-align: center;
                         line-height: 250px;
                         }
-                    
-                        .box-seven{
+                        .box-eight{
                             width: 190px;
                             height: 250px;
-                            float: left;
-                            margin-left: 0px;
-                            text-align: center;
                             line-height: 250px;
                             }
-                            .box-eight{
-                                width: 190px;
-                                height: 250px;
-                                float: left;
-                                text-align: center;
-                                line-height: 250px;
-                                }
-                .box-nine{
-                    width: 760px;
-                    height: 150px;
-                    float: left;
-                    text-align: center;
-                    line-height: 140px;
-                    }
+            .box-nine{
+                width: 760px;
+                height: 150px;
+                line-height: 140px;
                 }
+
+}
