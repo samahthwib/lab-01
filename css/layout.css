@@ -64,11 +64,7 @@ body {
     body {
         max-height: 400px;
       }
-    
-      section.a {
-        display: inline-flex;
-    }
-
+   
 
       .container {
         display: grid;
@@ -123,12 +119,6 @@ body {
         grid-row : 4/5;
       }
 
-
-      section.b {
-        display: flex;
-        align-items: center;
-     
-    }
 
       .box-one{
         width: 960px;
